@@ -1,0 +1,32 @@
+.list li{
+    list-style-type: decimal;
+    padding-bottom: 18px;
+}
+.list li a img{
+    margin-left: 10px;
+    margin-bottom: -8px
+}
+.btn{
+background: #5C7E10;
+color: white;
+}
+table{
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+     border-bottom:solid 1px black;
+     padding: 10px;
+     
+}
+tr:nth-child(even) {
+    background-color: #f2f3f7;
+}
+tr:hover td{
+    background: #e6eafc
+}
+th{
+    padding: 10px;
+    text-align: left;
+}
